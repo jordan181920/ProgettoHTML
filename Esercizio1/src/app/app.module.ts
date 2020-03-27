@@ -8,6 +8,7 @@ import { HomecomponentComponent } from './components/homecomponent/homecomponent
 import { NgComponent } from './components/ng/ng.component';
 import { GameDetailComponentComponent } from './components/game-detail-component/game-detail-component.component';
 import { EditGameComponentComponent } from './components/edit-game-component/edit-game-component.component';
+import { GameListComponent } from './components/game-list/game-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EditGameComponentComponent } from './components/edit-game-component/edi
     HomecomponentComponent,
     NgComponent,
     GameDetailComponentComponent,
-    EditGameComponentComponent
+    EditGameComponentComponent,
+    GameListComponent
   ],
   imports: [
     BrowserModule
