@@ -1,1 +1,9 @@
-<p>menu-component works!</p>
+<ul>
+    <li *ngFor="let menuItem of menuItems">
+        <span>
+
+            {{menuItem.description}}
+        </span>
+        <button (click)="selectMenuItems(menuItem.id)">></button>
+    </li>
+</ul>
