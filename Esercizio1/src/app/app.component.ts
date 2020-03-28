@@ -9,6 +9,5 @@ import { MenuComponentComponent } from './components/menu-component/menu-compone
 export class AppComponent {
   currentSection: number =1;
 
-  @ViewChild(MenuComponentComponent)
-   menuComponentRef: MenuComponentComponent;
+  
 }

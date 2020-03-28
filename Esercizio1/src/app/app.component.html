@@ -1,8 +1,8 @@
-<app-menu-component></app-menu-component>
+<app-menu-component (selectMenuId)="currentSection = $event"></app-menu-component>
 
 <div [ngSwitch]="currentSection">
   <app-homecomponent *ngSwitchCase="1"></app-homecomponent>
   <app-game-list *ngSwitchCase="2"></app-game-list>
-  <app-game-detail-component *ngSwitchCase="3"></app-game-detail-component>
-  <app-edit-game-component *ngSwitchCase="4"></app-edit-game-component>
+  <app-edit-game-component *ngSwitchCase="3"></app-edit-game-component>
+  <app-game-detail-component *ngSwitchCase="4"></app-game-detail-component>
 </div>
